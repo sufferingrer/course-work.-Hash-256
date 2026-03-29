@@ -40,3 +40,17 @@
 qmake
 make
 ./Hash
+
+Структура проекта
+course-work-Hash-256/
+├── README.md
+├── Hash.pro                  ← файл проекта Qt
+├── src/
+│   ├── main.cpp
+│   ├── mainwindow.cpp
+│   ├── mainwindow.h
+│   ├── mainwindow.ui
+│   ├── SHA256.cpp
+│   └── SHA256.h
+├── MD5.cpp                   ← реализация MD5 (для сравнения)
+└── documentation/            ← полная курсовая работа (docx + pdf)
